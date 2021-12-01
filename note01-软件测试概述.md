@@ -115,7 +115,7 @@
    5. 测试工具
 
 ![测试的信息流图]
-(https://github.com/WangSimiao2000/SoftwareQualityAssuranceAndTesting/picture/测试的信息流.jpg)
+(https://github.com/WangSimiao2000/SoftwareQualityAssuranceAndTesting/blob/main/picture/%E6%B5%8B%E8%AF%95%E7%9A%84%E4%BF%A1%E6%81%AF%E6%B5%81.jpg)
 
 # 测试的策略
 
