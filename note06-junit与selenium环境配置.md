@@ -14,11 +14,13 @@
 ## selenium下载
 
 下载selenium-server-standalone.jar包: 
+
 http://selenium-release.storage.googleapis.com/index.html
 
 ## chrome驱动下载
 
 下载与chrome浏览器版本相同的驱动: 
+
 https://chromedriver.storage.googleapis.com/index.html
 
 ## eclipse中配置selenium环境
