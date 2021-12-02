@@ -76,7 +76,7 @@
    4. 各模块装配成为一个完整的程序之后
 4. 怎样进行测试
 
-# 软件测试的目的(三个)
+# ★软件测试的目的(三个)
 
 1. 证明
    1. 获取系统在可接受风险范围内可用的信心
@@ -116,7 +116,7 @@
 
 ![测试的信息流图](https://raw.githubusercontent.com/WangSimiao2000/SoftwareQualityAssuranceAndTesting/main/picture/%E6%B5%8B%E8%AF%95%E7%9A%84%E4%BF%A1%E6%81%AF%E6%B5%81.jpg)
 
-# 测试的策略
+# ★测试的策略
 
 1. 单元测试
    1. 模块接口测试

@@ -27,7 +27,7 @@ assertNull(java.long.Object object);
 
 # selenium
 
-* chromedriver地址
+* ChromeDriver地址
 System.setProperty("webdriver.chrome.driver","c:\\webDriver\\chromedriver.exe");
 
 * 新建一个WebDriver的对象,但是new的是ChromeDriver的驱动
