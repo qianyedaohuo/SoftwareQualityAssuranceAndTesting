@@ -6,7 +6,6 @@
 
 * prjTriangle文件包含三角形问题测试java源代码
 * LeapYearTest文件包含闰年问题测试java源代码
-
-selenium文件夹内有selenium-standalone-3.9.0.jar包
+* selenium文件夹内有selenium-standalone-3.9.0.jar包
 
 ### 2021年12月1日星期三
