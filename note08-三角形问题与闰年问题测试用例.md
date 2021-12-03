@@ -18,9 +18,6 @@ test13|100|50|50|非三角形
 
 # nextdate问题 边界值分析 测试用例
 
-
-
-# 闰年问题
 测试用例|month|day|year|预期输出
 --|--|--|--|--
 test1|6|15|1911|1
@@ -42,3 +39,26 @@ test16|2|15|2001|
 test17|11|15|2001|
 test18|12|15|2001|
 test19|13|15|2001|
+
+# 闰年问题
+
+//测试输入年份与1582年的关系
+assertEquals("after1582",LeapYearJudge.isTrueInput(2000));
+assertEquals("after1582",LeapYearJudge.isTrueInput(1582));
+assertEquals("before1582",LeapYearJudge.isTrueInput(1581));
+assertEquals("before1582",LeapYearJudge.isTrueInput(-1));
+		
+//测试输入的1582年以来的年分是否是闰年
+assertTrue(LeapYearJudge.isLeapYearA(10000));
+assertTrue(LeapYearJudge.isLeapYearA(2000));
+assertTrue(LeapYearJudge.isLeapYearA(1584));
+assertFalse(LeapYearJudge.isLeapYearA(1582));
+assertFalse(LeapYearJudge.isLeapYearA(2021));
+		
+//测试输入的1582年之前的年分是否是闰年
+assertTrue(LeapYearJudge.isLeapYearB(1580));
+assertTrue(LeapYearJudge.isLeapYearB(-5));
+assertTrue(LeapYearJudge.isLeapYearB(0));
+assertFalse(LeapYearJudge.isLeapYearB(1581));
+assertFalse(LeapYearJudge.isLeapYearB(-3));
+assertFalse(LeapYearJudge.isLeapYearB(-4));
